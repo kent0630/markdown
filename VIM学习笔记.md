@@ -343,6 +343,9 @@ filetype plugin indent on     " required!
 
 - ***vimperator*** 像使用vim一样使用firefox的插件  
 
+- macvim中文输入法执行时被错误捕获的问题：  
+执行:```defaults write org.vim.MacVim MMUseInlineIm 0```
+
 ---
 
 ##参考
@@ -357,3 +360,4 @@ filetype plugin indent on     " required!
 - *20120607* 增加rnu
 - *20140127* 增加了文件比较，编码格式，单词间移动，撤销
 - *20140201* 增加Bundle管理插件
+- *20150515* 新增了macvim中文输入法冲突的问题 
